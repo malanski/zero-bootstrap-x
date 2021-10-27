@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" href="favicon2.ico">
+        <title>Mucha Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="theme-color" content="#7952b3"> 
+
+        <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+        }
+        </style>
+    </head>
+    <body>
+    <header>    
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+<!--<a class="navbar-brand" href="#quemsomos">quem somos</a>-->
+                <a class="navbar-brand" href="https://github.com/malanski">
+                    <img src="favicon.ico" width="50" height="auto" title="contact github WebDeveloper" alt="triangulo circunscrito, logo marca">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#quemsomos">quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#parceiros">Parceiros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#serviços">SERVIÇOS</a>
+                        </li>
+                    </ul>
+            <!--    <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>-->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" src aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                    <img class="bd-placeholder-img" src="mucha101.jpg" alt="mucha 00">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Example headline.</h1>
+                            <p>Some representative placeholder content for the first slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                        <h1>One more for good measure.</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>    
+    </main>
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin">
+                <h3> Quem Somos</h3>
+                <img src="mucha101.jpg" class="rounded-circle" width="600" alt="la casa de papel actores">
+                <h3>Somos um time comprometido com os resultados!</h3>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluid text-center margin parceiro"s>
+                <h3>Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="mucha9.jpg" class="rounded-circle" width="300" height="300" alt="hackers">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="mucha8.jpg" class="rounded-circle" width="300" height="300" alt="hackers">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="mucha7.jpg" class="rounded-circle" width="300" height="300" alt="hackers">
+                        </div>
+                    </div>
+                </div>
+                <h3>Agilidade com nossa Rede Internacional</h3>
+            </div>
+        </section>
+
+        <section id="serviços">
+            <div class="container-fluid text-center margin serviços">
+                <h3>SERVIÇOS</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="mucha6.jpg" class="rounded-circle" width="300" height="300" alt="hackers">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="mucha10.jpg" class="rounded-circle" width="300" height="300" alt="hackers">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="mucha11.jpg" class="rounded-circle" width="300" height="300" alt="hackers">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-lg-7">
+                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+                    <p class="lead">Alphonse Maria Mucha (pronúncia local: [ˈalfons ˈmuxa] (Sobre este somescutar (ajuda·info)); Ivančice, 24 de julho de 1860 — Praga, 14 de julho de 1939) foi um pintor, ilustrador e designer gráfico checo e um dos principais expoentes do movimento Art Nouveau.
+
+                        Filho de Andreas Mucha, um oficial de diligências,[1] Alphonse Mucha se interessou pelas artes desde criança. Com 11 anos começou a cantar no coro na Catedral de São Pedro em Brünn (atual Brno), capital da Morávia.[2] Em 1877 não foi admitido na Academia de Belas Artes de Praga. Começou a pintar em 1882 como retratista, conhecendo seu primeiro mecenas, o Conde Khuen-Belassi. Graças ao mecenas Mucha viaja pelo norte da Itália e consegue frequentar a Academia de Belas Artes de Munique.</p>
+                </div>
+                <div class="col-lg-5">
+                    <img class="featurette-image img-fluid mx-auto" src="mucha1.jpg" alt="Generic placeholder image">
+                </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-lg-7 order-lg-2">
+                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+                    <p class="lead">É em 1888 que Mucha executa seus primeiros trabalhos de lustrações para revistas. Em 1892, juntamente com Georges Rochegrosse, ilustra a obra Scénes et épisodes de l'histoire d'Allemagne, do historiador Charles Seignobos.
+
+                        Sua primeira exposição individual ocorre em 1897, organizada pelo Journal des Artistes na galeria La Bodinière, em Paris. Aceita o convite de viajar para os EUA em 1904, onde lecionará aulas de pintura em Nova York, Filadélfia e Chicago. sua intenção é guardar dinheiro para realizar o sonho de se dedicar a pinturas de teor patriótico da cultura eslava.
+                        
+                        Mucha casou-se com Marie Chytilová em Praga em 10 de junho de 1906, após conhecê-la em Paris. Tiveram dois filhos, Jaroslava, nascida em Nova York e Jiří, nascido em Praga. Morreu de pneumonia em 14 de julho de 1939. Seu último quadro é O Juramento de União dos Eslavos.[3]
+                        
+                        Entre seus trabalhos mais conhecidos estão os cartazes para os espetáculos de Sarah Bernhardt realizados na França, de 1894 a 1900 e uma série chamada Epopéia Eslava, elaborada entre 1912 e 1930.</p>
+                    <embed src="luas.mp4">
+                </div>
+                <div class="col-lg-5 order-lg-1">
+                    <img class="featurette-image img-fluid mx-auto" src="mucha2.jpg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+        <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-lg-7">
+                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                    <p class="lead">
+                        Referências
+ «Mucha Foundation». www.muchafoundation.org. Consultado em 10 de julho de 2021
+ «Alphonse Maria Mucha Biography | Life, Paintings, Influence on Art | alfonsmucha.org». www.alfonsmucha.org. Consultado em 10 de julho de 2021
+ ULMER, Renate. Mucha. O início da arte nova. Trad. Ruth Correia. Lisboa: Paisagem, 2006, pág. 95.
+
+                    </p>
+                    <embed src="04-camaleao.mp3">
+                </div>
+                <div class="col-lg-5">
+                    <img class="featurette-image img-fluid mx-auto" src="mucha4.jpg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+        <hr class="featurette-divider">
+
+        <footer class="container-fluid text-center bg-footer">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>Desenvolvido por, <a href="https://www.linkedin.com/in/ulisses-augusto-cequinel-malanski"> Ulisses Malanski</a></p>
+        </footer>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>
